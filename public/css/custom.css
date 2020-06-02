@@ -1,0 +1,46 @@
+li.notifications .expiry {
+    width: 900px !important;
+}
+
+.modal-dialog {
+    max-width: 700px !important;
+}
+
+.hight-auto {
+    height: auto;
+}
+
+.email-app .email-side-nav {
+
+    position: static;
+    height: auto;
+}
+
+.email-active {
+    color: #2196f3!important;
+}
+
+.add-new-btn {
+    position: absolute;
+    top: 71px;
+    right: 26px;
+}
+
+#dropzone {
+    margin-bottom: 3rem; }
+
+.dropzone {
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background: white; }
+.dropzone .dz-message {
+    font-weight: 400; }
+.dropzone .dz-message .note {
+    font-size: 0.8em;
+    font-weight: 200;
+    display: block;
+    margin-top: 1.4rem; }
+
+.phpdebugbar{
+    display: none;
+}
