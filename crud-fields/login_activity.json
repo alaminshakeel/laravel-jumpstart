@@ -1,0 +1,31 @@
+{
+    "fields": [
+        {
+            "name": "user_id",
+            "type": "string"
+        },
+        {
+            "name": "ip_address",
+            "type": "string"
+        },
+        {
+            "name": "email",
+            "type": "string"
+        }
+    ],
+    "foreign_keys": [
+        {
+            "column": "user_id",
+            "references": "id",
+            "on": "users",
+            "onDelete": "cascade"
+        }
+    ],
+    "relationships": [
+        {
+            "name": "user",
+            "type": "belongsTo",
+            "class": "App\\User"
+        }
+    ]
+}
