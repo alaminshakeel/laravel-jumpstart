@@ -10,9 +10,9 @@ All you need is to run these commands:
 
 ```bash
 
-git clone https://github.com/kossa/laradminator.git
+git clone https://github.com/alaminshakeel/laravel-jumpstart.git
 
-cd laradminator
+cd laravel-jumpstart
 
 composer install # Install backend dependencies
 
